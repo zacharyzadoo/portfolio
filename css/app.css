@@ -1,4 +1,13 @@
-.cell {
-  background: red;
-  border: 1px solid black;
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Quattrocento');
+* {
+  /*outline: 1px solid black; //temporary to view marginpadding*/
+}
+body {
+  font-family: 'Quattrocento', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oxygen', sans-serif;
+}
+h1 {
+  font-size: 1.2rem;
 }
