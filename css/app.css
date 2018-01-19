@@ -1,13 +1,55 @@
-@import url('https://fonts.googleapis.com/css?family=Oxygen|Quattrocento');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500|Rock+Salt');
 * {
-  /*outline: 1px solid black; //temporary to view marginpadding*/
+  /*outline: 1px solid black; //temporary to view margin and padding*/
 }
 body {
-  font-family: 'Quattrocento', serif;
+  font-family: 'Quicksand', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Rock Salt', cursive;
 }
-h1 {
-  font-size: 1.2rem;
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 2em;
+}
+.menu { /* Navigation */
+  padding-top: 20px;
+}
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+footer {
+
+}
+/*Porfolio page*/
+body {
+  background-color: black;
+  color: white;
+}
+.thumbnail {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  cursor: pointer;
+}
+.thumbnail:hover {
+  opacity: 0.2;
+}
+.fullimg {
+  background-size: contain;
+}
+/*About Page */
+p {
+  padding-left: 10px;
 }
